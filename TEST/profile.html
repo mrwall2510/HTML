@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+<div class="profile">
+    <h1>Multi Step Form Widgets</h1>
+    <section class="main">
+    <button>Profile</button>
+    <form action="http://www.example.org/profile.php" method="post">
+        <input type="text" class="text" id="firstname" name="firstname" placeholder="First Name" required><br>
+        <input type="text" class="text" id="lastname" name="lastname" placeholder="Last Name" required><br>
+        <input type="text" class="text" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+        <p>Gender:</p>
+        <input type="radio" id="female" name="Gender" value="f">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="Gender" value="m">
+        <label for="male">Male</label>
+        <textarea name="address" class="text" id="address" placeholder="Address" required></textarea><br>
+        <input type="submit" value="Next" class="submit">
+    </form>
+    </section>
+</div>
+</body>
+</html>

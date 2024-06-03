@@ -1,0 +1,41 @@
+div.profile{
+    background-color:#7575fa ;
+    padding: auto;
+    padding-bottom: 60px;
+}
+div.profile>h1{
+    text-align: center;
+    color: white;
+}
+section.main{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+button{
+    background-color: #7575fa;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 30px;
+}
+input{
+    padding: 5px;
+    margin: 20px;
+}
+p{
+    padding-left: 30px;
+}
+textarea{
+    margin:30px;
+    height: 90px;
+}
+.text{
+    width: 90%;
+}
+.submit{
+    color: white;
+    background-color: #7575fa;
+    padding: 10px;
+    border: none;
+}
